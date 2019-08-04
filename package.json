@@ -1,0 +1,25 @@
+{
+  "name": "quiz",
+  "version": "1.0.0",
+  "description": "## Project setup ``` npm install ```",
+  "main": "babel.config.js",
+  "scripts": {
+    "predeploy":"npm run build",
+    "deploy": "gh-pages -d build"
+    
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SaraMohamed193/Quiz.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SaraMohamed193/Quiz/issues"
+  },
+  "homepage": "https://github.com/SaraMohamed193/Quiz",
+  "dependencies": {
+    "gh-pages": "^2.1.0"
+  }
+}
